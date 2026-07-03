@@ -13,7 +13,6 @@ Due to GitHub file size limitations, the raw relational datasets are not hosted 
 
 ```text
     olist-ecommerce-analytics/
-    ├── data/                       # Raw CSV datasets (Git ignored)
     ├── notebooks/                  # Jupyter Notebook (.ipynb)
     └── README.md                   # Project documentation
 ```
