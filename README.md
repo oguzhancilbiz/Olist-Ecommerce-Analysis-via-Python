@@ -11,11 +11,12 @@ Due to GitHub file size limitations, the raw relational datasets are not hosted 
 1. Download the official archive from Kaggle: [Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 2. Extract the ZIP file and place all CSV files into a local folder named `data/` within your root directory.
 
+```text
     olist-ecommerce-analytics/
     ├── data/                       # Raw CSV datasets (Git ignored)
     ├── notebooks/                  # Jupyter Notebook (.ipynb)
     └── README.md                   # Project documentation
-
+```
 
 ## 🛠️ Tech Stack & Python Ecosystem
 - **Data Engine:** Pandas, NumPy (Relational mapping via unique IDs, automated type casting, custom handling of data gaps, and data deduplication).
