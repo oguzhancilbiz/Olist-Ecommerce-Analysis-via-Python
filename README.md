@@ -6,6 +6,16 @@
 This project delivers a comprehensive, data-driven evaluation of the **Olist Brazilian E-Commerce Open Dataset (2016–2018)**. Simulating a real-world scenario as an independent Data Scientist reporting directly to executive stakeholders, the objective was to transform raw, disconnected relational tables into high-impact business insights using exploratory data analysis (EDA), advanced interactive visualizations, and rigorous **statistical hypothesis testing (A/B Testing, ANOVA, Chi-Square)**.
 
 ---
+## 💾 Dataset Access & Local Setup
+Due to GitHub file size limitations, the raw relational datasets are not hosted directly in this repository. To replicate or run this notebook locally:
+1. Download the official archive from Kaggle: [Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+2. Extract the ZIP file and place all CSV files into a local folder named `data/` within your root directory.
+
+    olist-ecommerce-analytics/
+    ├── data/                       # Raw CSV datasets (Git ignored)
+    ├── notebooks/                  # Jupyter Notebook (.ipynb)
+    └── README.md                   # Project documentation
+
 
 ## 🛠️ Tech Stack & Python Ecosystem
 - **Data Engine:** Pandas, NumPy (Relational mapping via unique IDs, automated type casting, custom handling of data gaps, and data deduplication).
